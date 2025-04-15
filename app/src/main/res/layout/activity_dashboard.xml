@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+ xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DashboardActivity"
+    android:background="@drawable/jiscebg">
+
+
+
+    <TextView
+        android:id="@+id/dashboardtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="50dp"
+        app:layout_constraintTop_toTopOf="parent">
+    </TextView>
+
+
+
+    <Button
+        android:id="@+id/linear_profile"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="#A42544"
+        android:padding="10dp"
+        android:text="PROFILE"
+        android:textSize="20sp">
+
+    </Button>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/linear_profile">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/studentportal"
+                android:textSize="25sp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:text="STUDENT PORTAL"
+                android:textStyle="bold"
+                android:layout_marginTop="40dp"
+                android:backgroundTint="#000000">
+
+            </TextView>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:padding="12dp"
+                android:textSize="20sp"
+                android:text="SUBJECT"
+                android:id="@+id/dashboard_subject"
+                android:backgroundTint="#1A278A">
+
+            </Button>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:padding="12dp"
+                android:textSize="20sp"
+                android:text="EVENTS"
+                android:backgroundTint="#1A278A">
+
+            </Button>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:padding="12dp"
+                android:textSize="20sp"
+                android:text="FACULTY"
+                android:backgroundTint="#1A278A">
+
+            </Button>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:padding="12dp"
+                android:textSize="20sp"
+                android:text="LMS"
+                android:backgroundTint="#1A278A">
+
+            </Button>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:padding="12dp"
+                android:textSize="20sp"
+                android:text="FEES DETAILS"
+                android:backgroundTint="#1A278A">
+
+            </Button>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:padding="12dp"
+                android:textSize="20sp"
+                android:text="GRADESHEET"
+                android:backgroundTint="#1A278A">
+
+            </Button>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:padding="12dp"
+                android:textSize="20sp"
+                android:text="LECTURE VIDEO"
+                android:backgroundTint="#1A278A">
+
+            </Button>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:padding="12dp"
+                android:textSize="20sp"
+                android:text="LECTURE NOTES"
+                android:backgroundTint="#1A278A">
+
+            </Button>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:padding="12dp"
+                android:textSize="20sp"
+                android:text="CERTIFICATES"
+                android:backgroundTint="#1A278A">
+
+            </Button>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:padding="12dp"
+                android:textSize="20sp"
+                android:text="MAR-POINTS"
+                android:backgroundTint="#1A278A">
+
+            </Button>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:padding="12dp"
+                android:textSize="20sp"
+                android:text="LOG OUT"
+                android:backgroundTint="#1A278A">
+
+            </Button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+</ScrollView>
+
+
+</RelativeLayout>

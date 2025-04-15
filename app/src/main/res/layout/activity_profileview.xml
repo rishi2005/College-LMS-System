@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#95FFCB3B"
+    android:padding="20dp"
+    tools:context=".ProfileActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginTop="60dp"
+                android:paddingTop="20dp"
+                android:paddingBottom="10dp"
+                android:text="Update Profile"
+                android:textColor="@color/black"
+                android:textSize="35dp"
+                android:gravity="center"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/setName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Name"
+                android:textColor="@color/black"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginBottom="20dp"
+                android:textSize="20dp"
+                android:inputType="textPersonName"/>
+
+            <EditText
+                android:id="@+id/setCourse"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Course"
+                android:textColor="@color/black"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginBottom="20dp"
+                android:textSize="20dp"
+                android:inputType="text"/>
+
+            <EditText
+                android:id="@+id/setEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Email"
+                android:textColor="@color/black"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginBottom="20dp"
+                android:textSize="20dp"
+                android:inputType="textEmailAddress"/>
+
+            <EditText
+                android:id="@+id/setPhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Phone"
+                android:textColor="@color/black"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginBottom="20dp"
+                android:textSize="20dp"
+                android:inputType="number"/>
+
+            <Button
+                android:id="@+id/insert"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:text="Insert Data"/>
+            <Button
+                android:id="@+id/update"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:text="Update Data"/>
+            <Button
+                android:id="@+id/delete"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#673AB7"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:text="Delete Data"/>
+
+            <Button
+                android:id="@+id/view"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#D73939"
+                android:layout_gravity="center"
+                android:text="View" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

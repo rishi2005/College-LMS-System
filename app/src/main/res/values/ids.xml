@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="insert" type="id" />
+    <item name="update" type="id" />
+    <item name="delete" type="id" />
+    <item name="view" type="id" />
+    <item name="setName" type="id" />
+    <item name="setEmail" type="id" />
+    <item name="setCourse" type="id" />
+    <item name="setPhone" type="id" />
+</resources>
